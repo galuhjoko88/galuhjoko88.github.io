@@ -212,7 +212,6 @@ Using these parameters for random forest algorithm, I got test result
 
 The Random Forest algorithm exhibited disappointing results when contrasted with the other two algorithms. Its performance significantly lagged behind. Based on this initial iteration for each algorithm, we can provisionally deduce that XGBoost and CatBoost outperform the random forest algorithm in this case study and are viable options as prediction models for productivity.
 
-Next article will discuss how we can improve these model and some example about why " **[using more data does not necesarilly increase your prediction / ML model performance](/posts/moredatanotbetter)**". 
 
 
 
