@@ -88,7 +88,7 @@ sns.distplot(pd.to_numeric(tmp), ax=ax[0], kde=False, color="blue")
 sns.distplot(np.log(np.isfinite(pd.to_numeric(tmp))), ax=ax[1], bins=20, kde=False, color="limegreen")
 ~~~
 
-![tripsdistribution](</assets/img/pdtypred1st/tripsdistribution.PNG>)
+##### PIC
 
 There is strongly visible outlier in trips data. However, is it really outliers ? Apparently not, this were normal operation. To know this we must understand the business, not only the numbers. Some data on holiday date are not appropriate as independent variables. This will be discussed in antoher article for data cleaning. 
 
