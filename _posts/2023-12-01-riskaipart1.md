@@ -24,7 +24,7 @@ I will re-word some of the concept and show some example below.
 
 I utilized a case from a Machine Learning competition involving face recognition classification, and the error matrix employed is as follows (Note: The actual sample numbers have been adjusted for simplicity in this article).
 
-![example conf matrix](</assets/img/riskAI/example confmatrix.PNG>)
+# ![example conf matrix](</assets/img/riskAI/example confmatrix.PNG>)
 
 Assessing the provided matrix, a common query that often arises is, "Can we rely on this prediction method?" The response to this question is contingent upon various factors. To illustrate, let's consider the consequences of incorrect classifications using a well-known face recognition AI. While this AI has numerous applications, I will focus on two specific use cases from facial recognition to highlight the potential risks in AI.
 
@@ -36,7 +36,7 @@ Referring to these two cases, let's identify and define the common risks that ar
 ## A.  Identifying bad guys
 From the algorithm results, we have each metric defined. As the AI users, we must defined what is the acceptable risks that we are willing to accept. How ? Let's delve into each four of the metrics.
 
-![bad guy conf matrix](</assets/img/riskAI/example bad guy.PNG>)
+# ![bad guy conf matrix](</assets/img/riskAI/example bad guy.PNG>)
 
 *Accuracy 80%*, it's decent, meaning it will predict 80% face correctly and 20% wrong. Wait, is that mean that we can conclude bad guys as good guy or good guy as bad guy ? Well, it's both. This metric are the most selling point of any AI product these days and rarely questioned by management. 
 
