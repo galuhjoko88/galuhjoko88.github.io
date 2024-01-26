@@ -44,16 +44,16 @@ Precision 78.6% means that 87.6% of bad guys prediction are correct. Sensitivity
 
 In practical management terms, my approach typically involves requesting the error matrix and calculating key metrics. This becomes particularly valuable when utilizing external vendors for prediction modeling, as they often possess high technical expertise but may lack a deep understanding of internal business dynamics. Taking the current case as an example, I define my losses arising from wrongly identifying a bad actor as a good one (false negatives, FN). The associated risks include:
 
-a. Financial loss stemming from subsequent criminal activities.
-b. Loss of lives due to further criminal actions.
+1. Financial loss stemming from subsequent criminal activities.
+2. Loss of lives due to further criminal actions.
 
 Let's say the "losses in monetary value" are $ 300 billion (considering possibility in losses of lives, this might be inappropriate, but let's use this one only for illustration).
 
 While the risks from wrongly defined good guy as bad guy (false positive, FP), for example, are:
-a. image of the presecutor
-b. legal suit directed to you
-c. reputation of the company
-d. public trusts to company, etc.
+1. image of the presecutor
+2. legal suit directed to you
+3. reputation of the company
+4. public trusts to company, etc.
 Let's say the losses from this miss-classification in monetary terms are $20 billion.
 
 If the algorithm correctly identify appropriate person (TN and TP), then there will be no losses and let's say we can gather total benefit (TB) of $60 billion. From this fact, we can measure some risks that must be anticipated by organzation as:
@@ -75,13 +75,13 @@ Given that the anticipated benefit for this case amounts to only +$2 billion in 
 ![presence conf matrix](</assets/img/riskAI/example presence.PNG>)
 
 In this case, my risks from wrongly defined person A as other person (FN), for example, are:
-a. complain from employee
-b. double handling presence data
+1. complain from employee
+2. double handling presence data
 ==> In monetary terms, i will assume this as $10k per annum for manually correcting presence data.
 
 As for the risks from wrongly defined other person as person A (FP), for example, are:
-a. complain from employee
-b. double handling presence data
+1. complain from employee
+2. double handling presence data
 ==> In monetary terms, i will assume this as $10k per annum. This risks are the same with above 
 
 Let's assume total benefit from annual cost saving of doing manual works and other tasks for around $ 50k. Using the same formula (expected risks) above we can estimate the expected benefit are: 
@@ -99,10 +99,4 @@ Let's assume total benefit from annual cost saving of doing manual works and oth
 Regardless that accuracy can change overtime due to many aspects, which I will cover in other article, prediction accuracy is just a measures. The interaction between business and organization should extend beyond mere measurement, as numerous factors come into play, each with its unique context. Different industries will inherently possess distinct perspectives, coupled with their own set of ethics, morale, costs and benefits. The illustration above underscores that accuracy is relative and context-dependent. The individuals best suited to comprehend this are those in internal organization who oversee and understand the entire industry process. They need to have a comprehensive understanding of the business goals, the accompanying risks, and the delicate trade-offs between privacy, fairness, accuracy, security, and ethics that businesses must navigate.
 
 Considering all these risk considerations, it doesn't imply that we should completely avoid machine learning. On the contrary, management should actively embrace the opportunities it offers while ensuring that they effectively address the associated risks. Machine learning holds significant potential, but as this technology, along with other forms of AI, becomes integral to our economic and social structures, the risks it presents will intensify. For businesses, mitigating these risks may be just as crucial, if not more so, than managing the adoption of machine learning itself. Failure to establish proper practices to address these emerging risks may hinder companies from gaining traction in the business environment.
-
-
-
-
-
-
 
