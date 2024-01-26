@@ -30,7 +30,7 @@ Assessing the provided matrix, a common query that often arises is, "Can we rely
 
 1. Face recognition to classify bad guys
 2. Face recognition to check absentism
-
+   
 Referring to these two cases, let's identify and define the common risks that arise from them.
 
 ## A.  Identifying bad guys
@@ -57,9 +57,10 @@ d. public trusts to company, etc.
 Let's say the losses from this miss-classification in monetary terms are $20 billion.
 
 If the algorithm correctly identify appropriate person (TN and TP), then there will be no losses and let's say we can gather total benefit (TB) of $60 billion. From this fact, we can measure some risks that must be anticipated by organzation as:
-	Total Risk = TR = (FP/Total sample x Loss from FP) + (FN/Total sample x Loss from FN)
 	
+  
 	Expected Benefit = EB = ((TP + TN)/Total sample) x Total Benefit - TR - Cost development
+	Total Risk = TR = (FP/Total sample x Loss from FP) + (FN/Total sample x Loss from FN)
 	
 	EB 	= ((110+50)/200x $60 bn - (10/200 x $20 bn) - (30/200 x $300 bn) - TC
 		= $48 bn - $1 bn - $45 bn - TC
@@ -71,7 +72,7 @@ Given that the anticipated benefit for this case amounts to only +$2 billion in 
 
 ## B.  Identify presence in office 
 
-### PIC presence
+![presence conf matrix](</assets/img/riskAI/example presence.PNG>)
 
 In this case, my risks from wrongly defined person A as other person (FN), for example, are:
 a. complain from employee
