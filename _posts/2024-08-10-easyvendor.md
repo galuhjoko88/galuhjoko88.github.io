@@ -1,5 +1,5 @@
 ---
-title: Revolusi Digital: Menilai Manfaat Produk Digital bagi Perusahaan
+title: Revolusi Digital # Menilai Manfaat Produk Digital bagi Perusahaan
 date: 2024-08-10 01:00:00 +0700
 categories: [AI, ML, Digitalization, Business Analysis, Analyst]
 tags: [AI, ML, Digitalization, Business Analysis, Analyst]
