@@ -1,11 +1,11 @@
 ---
-title: Balancing Cost and Usability... Lessons from a Dashboard Development Journey
+title: Balancing Cost and Usability. Lessons from a Dashboard Development Journey
 date: 2024-01-01 01:00:00 +0700
 categories: [open source, power bi, dashboard]
-tags: [power bi, dashboard, open source]
+tags: [power bi, dashboard, open source, business intelligence, self-service analytics, analytics]
 ---
  
-# Balancing Cost and Usability Lessons from a Dashboard Development Journey
+# Balancing Cost and Usability Lessons from a Dashboard Development Journey to achieve self-service Analytics
 
 ## **Disclaimer**:
 **This comparison is not intended as an advertisement for Microsoft or any of its products.** The choice of Power BI as a reference point in this discussion is coincidental and based solely on its alignment with the needs of certain process owners. The suitability of any tool varies widely depending on specific use cases, organizational requirements, and resource availability. As such, this comparison may not hold for every condition and is meant to provide general guidance.  
