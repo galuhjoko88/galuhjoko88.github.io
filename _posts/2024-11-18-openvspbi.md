@@ -1,5 +1,5 @@
 ---
-title: Balancing Cost and Usability: Lessons from a Dashboard Development Journey
+title: Balancing Cost and Usability... Lessons from a Dashboard Development Journey
 date: 2024-01-01 01:00:00 +0700
 categories: [open source, power bi, dashboard]
 tags: [power bi, dashboard, open source]
@@ -10,7 +10,8 @@ tags: [power bi, dashboard, open source]
 ## **Disclaimer**:
 **This comparison is not intended as an advertisement for Microsoft or any of its products.** The choice of Power BI as a reference point in this discussion is coincidental and based solely on its alignment with the needs of certain process owners. The suitability of any tool varies widely depending on specific use cases, organizational requirements, and resource availability. As such, this comparison may not hold for every condition and is meant to provide general guidance.  
 
-
+#### **This is actual comparation between development of a dashboard using open source vs Power BI**
+![comparationpbi](</assets/img/jetvspbi/opensource_pbi.png>)
 
 Many people assume that open-source solutions are more cost-effective, leading many to overlook potential risks related to security or the complexities of system maintenance. However, in this article, I aim to challenge that assumption by demonstrating that this is not always the case. I will provide a real-world example where opting for open-source tools does not necessarily result in lower costs.
 
@@ -32,9 +33,13 @@ I am a strong advocate for open-source solutions when used effectively and in ef
 Back to our context, Power BI was chosen for this case primarily due to its cost-effectiveness and appearance, being significantly cheaper than alternatives like Tableau or Qlik. Additionally, it addressed the specific needs of this business department:
 
 a. The desire to implement self-service analytics.
+
 b. The organization already had a Microsoft ecosystem in place, ready for seamless integration.
+
 c. A need for speed and efficiency—waiting 20 days for a single-page dashboard with limited visuals was absoultely not feasible, especially while employees were still developing their SQL skills.
+
 d. Scalability requirements were minimal, as the project-based nature of the business meant data volumes were relatively small (a few hundred thousand records annually), unlike data-intensive industries such as e-commerce, telecomunication or other B2C/C2C industry.
+
 e. The solution needed to remain within a specific budget to minimize administrative complexities.
 
 ### Conclusion 
