@@ -1,5 +1,5 @@
 ---
-title: Balancing Cost and Usability. Lessons from a Dashboard Development Journey
+title: Balancing Open Source Cost and Usability 
 date: 2024-01-01 01:00:00 +0700
 categories: [open source, power bi, dashboard]
 tags: [power bi, dashboard, open source, business intelligence, self-service analytics, analytics]
